@@ -1,6 +1,5 @@
 import React from 'react';
 import { SideInfo } from '../SideInfo';
-import tori from '../../images/pick/water_tori.jpg';
 import { Pick } from '../../types/Pick';
 
 type Props = {
