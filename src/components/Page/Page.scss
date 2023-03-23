@@ -1,0 +1,23 @@
+.page {
+  align-items: center;
+  font-family: "Libre Franklin", sans-serif;
+  color: $color-white;
+  overflow-x: hidden;
+  width: 100vw;
+
+  &__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    transform: translateX(100%);
+    transition-property: transform;
+  }
+
+  &__body {
+    &--with-menu {
+      overflow: hidden;
+    }
+  }
+}

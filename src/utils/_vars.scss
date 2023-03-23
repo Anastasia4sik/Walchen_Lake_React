@@ -1,0 +1,16 @@
+$bc-color: #28272a;
+$bc-color-transparent: #28272ab3;
+
+$color-white: #fefefe;
+$color-yellow: #fee251;
+$color-yellow-border: #cdb53e;
+$color-gray: #666a6c;
+$color-scrollbar: #58585b;
+
+$size-img-square: 190px;
+$size-img-square-small: 164px;
+
+$section-mob-m-bottom: 90px;
+$section-tablet-m-bottom: calc(#{$section-mob-m-bottom} / 3 * 4);
+$section-desktop-m-bottom: calc(#{$section-tablet-m-bottom} / 3 * 4);
+

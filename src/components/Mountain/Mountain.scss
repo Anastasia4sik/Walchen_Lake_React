@@ -1,0 +1,127 @@
+.mountain {
+  position: relative;
+  margin-bottom: 80px;
+
+  &__wrapper {
+    width: 100vw;
+    margin: 0 16px;
+  }
+
+  &__top {
+    margin-bottom: 40px;
+
+    &__title {
+      margin-bottom: 16px;
+    }
+
+    &__desc {
+      max-width: 90%;
+    }
+  }
+
+  &__block {
+    &:not(:last-child) {
+      margin-bottom: 40px;
+      border-bottom: 1px solid $color-gray;
+    }
+
+    padding-bottom: 40px;
+
+    &__content {
+      margin-right: 124px;
+
+      &__desc {
+        &--1 {
+          margin-bottom: 18px;
+        }
+
+        &--2 {
+          margin-bottom: 28px;
+        }
+      }
+
+      &__btn {
+        margin: 0 auto 16px;
+      }
+    }
+
+    &__img {
+      height: $size-img-square;
+      display: block;
+    }
+  }
+
+  &__line {
+    position: absolute;
+    display: flex;
+    content: "";
+    height: 1px;
+    width: 85%;
+    align-items: center;
+    background-color: $color-gray;
+    left: 10%;
+
+  }
+
+  @include onTablet {
+    background-image: url(../../images/bc_mountain.png);
+    background-repeat: no-repeat;
+    background-position: center -30%;
+
+    &__wrapper {
+      padding-left: 22%;
+    }
+
+    &__top {
+      margin-bottom: 80px;
+
+      &__title {
+        margin-bottom: 36px;
+      }
+
+      &__desc {
+        max-width: 45%;
+      }
+    }
+
+    &__block {
+      &:not(:last-child) {
+
+        margin-bottom: 40px;
+        border-bottom: 1px solid $color-gray;
+      }
+
+      display: flex;
+      max-width: 90%;
+
+      padding-bottom: 40px;
+
+      &__content {
+        margin-right: 124px;
+
+        &__desc {
+          &--1 {
+            margin-bottom: 18px;
+          }
+
+          &--2 {
+            margin-bottom: 28px;
+          }
+        }
+
+        &__btn {
+          margin: 0;
+        }
+      }
+
+      &__img {
+        width: $size-img-square;
+        height: $size-img-square;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}
