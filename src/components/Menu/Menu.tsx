@@ -1,24 +1,17 @@
-import classNames from 'classnames';
 import React from 'react';
 
-type Props = {
-  isVisible: boolean;
-};
 
-export const Menu: React.FC<Props> = ({ isVisible }) => {
+export const Menu: React.FC = () => {
   return (
     <nav
-      className={classNames(
-        'page__menu menu',
-        { visible: isVisible },
-      )}
+      className='menu__side'
       id="menu"
     >
-      <ul className="menu__list">
+      <ul className="menu__side__list">
         {['Home', 'Spots', 'Sea', 'Picks', 'Mountains', 'Help'].map(item => (
-          <li className="menu__list__item">
+          <li className="menu__side__list__item">
             <a href={`#${item}`}
-            className="menu__list__link"
+            className="menu__side__list__link"
             >
               {item}
             </a>

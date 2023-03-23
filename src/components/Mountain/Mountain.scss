@@ -4,7 +4,7 @@
 
   &__wrapper {
     width: 100vw;
-    margin: 0 16px;
+    margin: 0 10vw;
   }
 
   &__top {
@@ -28,6 +28,12 @@
     padding-bottom: 40px;
 
     &__content {
+
+      &__title,
+      &__location {
+        text-align: center;
+      }
+
       margin-right: 124px;
 
       &__desc {
@@ -46,7 +52,7 @@
     }
 
     &__img {
-      height: $size-img-square;
+      max-height: $size-img-square;
       display: block;
     }
   }
@@ -69,7 +75,6 @@
     background-position: center -30%;
 
     &__wrapper {
-      padding-left: 22%;
     }
 
     &__top {
@@ -91,22 +96,28 @@
         border-bottom: 1px solid $color-gray;
       }
 
+      
       display: flex;
       max-width: 90%;
-
+      
       padding-bottom: 40px;
-
+      
       &__content {
         margin-right: 124px;
-
+        
         &__desc {
           &--1 {
             margin-bottom: 18px;
           }
-
+          
           &--2 {
             margin-bottom: 28px;
           }
+        }
+     
+        &__title,
+        &__location {
+          text-align: left;
         }
 
         &__btn {

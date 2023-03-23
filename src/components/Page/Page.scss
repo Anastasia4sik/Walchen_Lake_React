@@ -3,21 +3,24 @@
   font-family: "Libre Franklin", sans-serif;
   color: $color-white;
   overflow-x: hidden;
+
+  background-color: $bc-color;
+  scroll-behavior: smooth;
+
   width: 100vw;
 
-  &__menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+  // &__menu {
+  //   position: fixed;
+  //   top: 0;
+  //   left: 0;
+  //   right: 0;
 
-    transform: translateX(100%);
-    transition-property: transform;
-  }
+  //   transition-property: transform;
+  // }
 
-  &__body {
-    &--with-menu {
-      overflow: hidden;
-    }
-  }
+  // &__body {
+  //   &--with-menu {
+  //     overflow: hidden;
+  //   }
+  // }
 }

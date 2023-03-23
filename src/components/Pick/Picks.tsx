@@ -11,7 +11,7 @@ export const Picks: React.FC<Props> = ({ picks }) => {
   return  (
     <div className="pick">
       <SideInfo 
-        title='Editor`s <br> pick' 
+        title={`Editor's \n pick`}
         desc='Our picks, just for you nam an vidisse admodum omittantur, nihil corrumpit' 
         withBtn={false}
       />

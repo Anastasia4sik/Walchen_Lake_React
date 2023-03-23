@@ -2,7 +2,6 @@ import React from 'react';
 import { User } from '../../types/User';
 import { Menu } from '../Menu';
 import { Logo } from '../shared/Logo';
-import bc from '../../images/bc_header.png';
 
 type Props = {
   user?: User,
@@ -17,6 +16,8 @@ export const Header: React.FC<Props> = ({ user, isMenuVisible }) => {
       <div className="header__logo">
         <Logo />
       </div>
+
+      <Menu />
 
       <nav className="header__nav">
         <div className="header__nav__content">
@@ -42,8 +43,6 @@ export const Header: React.FC<Props> = ({ user, isMenuVisible }) => {
         </a>
       </div>
     </div>
-
-    <Menu isVisible={isMenuVisible} />
   </header>
 )
 };

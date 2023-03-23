@@ -5,6 +5,11 @@
   width: 100%;
   height: 100vh;
 
+  background-image: url('../../images/bc_header.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
   &__top {
     display: flex;
     flex-direction: row;
@@ -126,5 +131,27 @@
 
       font-size: 40px;
     }
+  }
+}
+
+.btn {
+  display: block;
+  background-color: $color-yellow;
+  border: none;
+  border-radius: 40px;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 36px;
+  width: 96px;
+  color: $bc-color;
+
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 0 45px -7px $color-yellow-border;
   }
 }

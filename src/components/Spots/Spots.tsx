@@ -12,7 +12,6 @@ export const Spots: React.FC<Props> = ({ spots }) => {
         <SideInfo title={`Featured \n Spots`} desc='Some of featured spot that you might want visit before you die' withBtn/>
 
         <div className="spots__wrapper">
-          <div className="spots__slide">
             {spots.map(spot => (
               <div className="spots__item">
                 <img
@@ -38,7 +37,6 @@ export const Spots: React.FC<Props> = ({ spots }) => {
                 </a>
               </div>
             ))}
-          </div>
         </div>
     </div>
   )
