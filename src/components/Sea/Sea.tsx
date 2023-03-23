@@ -1,10 +1,11 @@
 import React from 'react';
+import sea from '../../images/sea.jpg'
 
 export const Sea: React.FC = () => {
   return  (
     <div id="sea" className="sea">
         <img
-          src="./images/sea.jpg"
+          src={sea}
           alt="Sea"
           className="sea__img"
         />

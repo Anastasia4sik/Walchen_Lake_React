@@ -1,6 +1,7 @@
 import { Pick } from '../types/Pick';
 import { Spot } from '../types/Spot';
 import { User } from '../types/User';
+import { Mountain } from '../types/Mountain';
 
 export function getUsers(): Promise<User[]> {
   return fetch('https://anastasia4sik.github.io/Walchen_Lake_React/api/users.json')
@@ -29,7 +30,7 @@ export function getPicks(): Promise<Pick[]> {
     });
 }
 
-export function getMountains(): Promise<Spot[]> {
+export function getMountains(): Promise<Mountain[]> {
   return fetch('https://anastasia4sik.github.io/Walchen_Lake_React/api/mountains.json')
     .then(response => response.json())
     .catch(error => {

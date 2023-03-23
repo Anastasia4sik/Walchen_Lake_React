@@ -14,18 +14,8 @@ html {
 }
 
 .main-container {
-  padding: 0 16px;
-  
-  @include onTablet {
-  min-width: 640px;
-  padding: 0 8px;
-  }
-  
-  @include onDesktop {
-    margin: 0 auto;
-    min-width: 1200px;
-    padding: 0 32px;
-  }
+  margin-left: 25%;
+  width: 1200px;
 }
 
 .container {

@@ -1,12 +1,17 @@
 import React from 'react';
 import { SideInfo } from '../SideInfo';
 import tori from '../../images/pick/water_tori.jpg';
+import { Pick } from '../../types/Pick';
 
-export const Pick: React.FC = () => {
+type Props = {
+  picks?: Pick[],
+};
+
+export const Picks: React.FC<Props> = ({ picks }) => {
   return  (
     <div className="pick">
       <SideInfo 
-        title='Editor`s <br/> pick' 
+        title='Editor`s <br> pick' 
         desc='Our picks, just for you nam an vidisse admodum omittantur, nihil corrumpit' 
         withBtn={false}
       />
