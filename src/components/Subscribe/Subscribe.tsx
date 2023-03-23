@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Subscribe: React.FC = () => {
   return  (
-    <div id="help" className="subscribe">
+    <div id="Help" className="subscribe">
       <h4 className="subscribe__title description">
         Subscribe to our news letter
       </h4>

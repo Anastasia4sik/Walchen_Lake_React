@@ -1,17 +1,23 @@
-import React from 'react';
+import classNames from 'classnames';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-export const Icon: React.FC = () => (
-  <>
-    <Link to="tel:+12 345 678-90-12" className="icon icon--call">
-      <div className="icon__tooltip">
-        +12 345 678-90-12
-      </div>
-    </Link>
+export const Icon: React.FC = () => {
+  const [isActive, setIsActive] = useState(false);
 
+  const handleClick = () => {
+    setIsActive(!isActive);
+  }
+
+  return (
     <Link
-      to="#menu"
-      className="icon icon--menu"
+      to={isActive ? '/' : '#menu'}
+      className={classNames(
+        "icon",
+        { 'icon--cross': isActive},
+        { 'icon--menu': !isActive}
+      )}
+      onClick={handleClick}
     />
-  </>
-);
+  )
+};

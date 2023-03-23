@@ -1,5 +1,7 @@
+import classNames from 'classnames';
 import React from 'react';
 import { Menu } from '../Menu';
+import { Icon } from '../shared/Icon';
 import { Logo } from '../shared/Logo';
 
 type Props = {
@@ -11,11 +13,17 @@ export const Header: React.FC<Props> = ({ isMenuVisible }) => {
   return (
   <header id="Home" className="header">
     <div className="header__top">
-      <div className="header__logo">
+      <div className={classNames(
+        'header__logo',
+        {'header__logo--with-menu': isMenuVisible}
+      )}>
         <Logo />
+  
+        <Menu isVisible={isMenuVisible} />
+
+        <Icon />
       </div>
 
-      <Menu />
 
       <nav className="header__nav">
         <div className="header__nav__content">

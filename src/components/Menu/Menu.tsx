@@ -1,10 +1,17 @@
+import classNames from 'classnames';
 import React from 'react';
 
+type Props = {
+  isVisible: boolean,
+};
 
-export const Menu: React.FC = () => {
+export const Menu: React.FC<Props> = ({ isVisible }) => {
   return (
     <nav
-      className='menu__side'
+      className={classNames(
+        'menu__side',
+        {  visible: isVisible }
+      )}
       id="menu"
     >
       <ul className="menu__side__list">

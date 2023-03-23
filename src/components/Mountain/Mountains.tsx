@@ -7,7 +7,7 @@ type Props = {
 
 export const Mountains: React.FC<Props> = ({ mountains }) => {
   return  (
-    <div className="mountain">
+    <div id='Mountains' className="mountain">
       <div className="mountain__wrapper">
         <div className="mountain__top">
           <h2 className="mountain__top__title title--2">

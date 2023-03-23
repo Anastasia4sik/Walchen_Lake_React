@@ -8,7 +8,7 @@ type Props = {
 
 export const Spots: React.FC<Props> = ({ spots }) => {
   return  (
-    <div id="spots" className="spots">
+    <div id="Spots" className="spots">
         <SideInfo title={`Featured \n Spots`} desc='Some of featured spot that you might want visit before you die' withBtn/>
 
         <div className="spots__wrapper">

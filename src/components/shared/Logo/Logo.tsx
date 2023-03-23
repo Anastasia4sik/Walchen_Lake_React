@@ -8,7 +8,7 @@ export const Logo: React.FC = () => (
     className="logo"
   >
     <img
-      className="logo__img"
+      className="header__logo__img logo__img"
       src={logo}
       alt="Cat"
     />

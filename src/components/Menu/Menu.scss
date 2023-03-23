@@ -1,8 +1,11 @@
 .menu__side {
-  height: 100vh;
-  padding: 30px 20px 0 15px;
+  position: absolute;
+  top: 64px;
+  height: 90vh;
+  padding: 30px 0 0 48px;
 
   background-color: $bc-color-transparent;
+  width: 30vw;
 
   &__list {
     width: 100%;
@@ -19,42 +22,53 @@
 
       &:hover {
         color: $color-white;
+        &::after {
+          position: absolute;
+          right: 0;
+          top: 1;
+          display: block;
+          width: 40%;
+          height: 1px;
+          background: $color-white;
+          content: "";
+        }
+      }
+    }
+  }
+
+  @include onMobile {
+    transform: translateX(-150%);
+    z-index: 999;
+
+    &__list {
+      &__link {
+        font-size: 24px;
+        line-height: 24px;
       }
     }
   }
 
   @include onTablet {
-
-    padding: 60px 0 0 40px;
+    padding: 60px 0 0 72px;
     text-align: justify;
+    width: 25vw;
 
     &__list {
-      width: 100%;
-
       &__link {
-        display: block;
-        padding-bottom: 24px;
-
-        font-weight: bold;
-        font-size: 12px;
-        line-height: 12px;
-        color: $color-gray;
-
-        &:hover {
-          color: $color-white;
-
-          &::after {
-            position: absolute;
-            right: 0;
-            top: 1;
-            display: block;
-            width: 30%;
-            height: 1px;
-            background: $color-white;
-            content: "";
-          }
-        }
+        font-size: 14px;
+        line-height: 14px;
       }
     }
   }
+}
+
+.visible {
+  transform: translateX(0);
+  display: block;
+  z-index: 999;
+  width: 100vw;
+
+  background-color: $bc-color;
+
+  overflow: hidden;
 }

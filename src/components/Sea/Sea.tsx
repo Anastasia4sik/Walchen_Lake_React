@@ -3,7 +3,7 @@ import sea from '../../images/sea.jpg'
 
 export const Sea: React.FC = () => {
   return  (
-    <div id="sea" className="sea">
+    <div id="Sea" className="sea">
         <img
           src={sea}
           alt="Sea"

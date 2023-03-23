@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Walchen_Lake_React/static/css/main.4648bec1.chunk.css",
-    "main.js": "/Walchen_Lake_React/static/js/main.f3e753a5.chunk.js",
-    "main.js.map": "/Walchen_Lake_React/static/js/main.f3e753a5.chunk.js.map",
+    "main.css": "/Walchen_Lake_React/static/css/main.34e3c6ae.chunk.css",
+    "main.js": "/Walchen_Lake_React/static/js/main.ed780cd4.chunk.js",
+    "main.js.map": "/Walchen_Lake_React/static/js/main.ed780cd4.chunk.js.map",
     "runtime-main.js": "/Walchen_Lake_React/static/js/runtime-main.490fc4d1.js",
     "runtime-main.js.map": "/Walchen_Lake_React/static/js/runtime-main.490fc4d1.js.map",
     "static/js/2.e60d3166.chunk.js": "/Walchen_Lake_React/static/js/2.e60d3166.chunk.js",
     "static/js/2.e60d3166.chunk.js.map": "/Walchen_Lake_React/static/js/2.e60d3166.chunk.js.map",
     "index.html": "/Walchen_Lake_React/index.html",
-    "static/css/main.4648bec1.chunk.css.map": "/Walchen_Lake_React/static/css/main.4648bec1.chunk.css.map",
+    "static/css/main.34e3c6ae.chunk.css.map": "/Walchen_Lake_React/static/css/main.34e3c6ae.chunk.css.map",
     "static/js/2.e60d3166.chunk.js.LICENSE.txt": "/Walchen_Lake_React/static/js/2.e60d3166.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/Walchen_Lake_React/static/media/phone.235a04e9.svg",
     "static/media/sea.aa24ed0c.jpg": "/Walchen_Lake_React/static/media/sea.aa24ed0c.jpg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.490fc4d1.js",
     "static/js/2.e60d3166.chunk.js",
-    "static/css/main.4648bec1.chunk.css",
-    "static/js/main.f3e753a5.chunk.js"
+    "static/css/main.34e3c6ae.chunk.css",
+    "static/js/main.ed780cd4.chunk.js"
   ]
 }
