@@ -6,7 +6,7 @@ import bc from '../../images/bc_header.png';
 import arrow from '../../images/icon/arrow.png';
 
 type Props = {
-  user?: User,
+  user: User,
   isMenuVisible: boolean,
 };
 

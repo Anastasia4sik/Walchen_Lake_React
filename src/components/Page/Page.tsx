@@ -10,6 +10,8 @@ import { Arrow } from '../shared/Arrow';
 export const Page: React.FC = () => {
   const { hash } = useLocation();
 
+  const [user]
+
   const isMenuVisible = hash.includes('#menu');
 
   if (isMenuVisible) {
@@ -21,7 +23,7 @@ export const Page: React.FC = () => {
   return (
     <div className="page">
 
-      <Header isMenuVisible={isMenuVisible} />
+      <Header user={} isMenuVisible={isMenuVisible} />
 
       <Burger isVisible={isMenuVisible} />
 

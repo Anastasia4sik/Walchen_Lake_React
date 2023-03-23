@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Southern mountain",
+    "img": "https://vui.unsplash.com/resize?height=256&quality=60&type=auto&url=https%3A%2F%2Fsearched-images.s3.us-west-2.amazonaws.com%2F9e6a37e7-dccf-49cd-bdbb-dcefebd222b8%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Credential%3DAKIAQ4GRIA4Q6KECABEK%252F20230323%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20230323T144654Z%26X-Amz-Expires%3D86400%26X-Amz-SignedHeaders%3Dhost%26X-Amz-Signature%3D613621ba69f646dc5e497c80454abe8bed50a2d4679d1805995c9e00ac89a259&sign=0z8iWF0S1NanfZkdGL-cA44fUVnYwy9RIroaKhUnNws",
+    "location": "South country",
+    "description": "Lorem ipsum dolor sit amet te eam oratio imperdiet, nam an vidisse admodum omittantur, nihil corrumpit an cum. Cu iriure dignissin consequat quo, usu id ceteros ponderum. Ea vel mails ludico quodi, ex nam error suscipit prodesset. Qui an deserunt imperdiet. Case temporibus qui ut.",
+    "slug": "Southern_Mountain"
+  },
+  {
+    "name": "Northern mountain",
+    "img": "https://images.unsplash.com/photo-1443996104801-80c82e789b18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
+    "location": "North country",
+    "description": "Lorem ipsum dolor sit amet te eam oratio imperdiet, nam an vidisse admodum omittantur, nihil corrumpit an cum. Cu iriure dignissin consequat quo, usu id ceteros ponderum. Ea vel mails ludico quodi, ex nam error suscipit prodesset. Qui an deserunt imperdiet. Case temporibus qui ut.",
+    "slug": "Northern_Mountain"
+  },
+  {
+    "name": "Eastern mountain",
+    "img": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80",
+    "location": "Eastern country",
+    "description": "Lorem ipsum dolor sit amet te eam oratio imperdiet, nam an vidisse admodum omittantur, nihil corrumpit an cum. Cu iriure dignissin consequat quo, usu id ceteros ponderum. Ea vel mails ludico quodi, ex nam error suscipit prodesset. Qui an deserunt imperdiet. Case temporibus qui ut.",
+    "slug": "Eastern_Mountain"
+  }
+]
