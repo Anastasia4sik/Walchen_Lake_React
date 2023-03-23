@@ -17,11 +17,17 @@ export const Picks: React.FC<Props> = ({ picks }) => {
       
       <div className="pick__wrapper">
             {picks.map(pick => (
-              <img
-                src={pick.img}
-                alt={pick.name}
-                className="pick__wrapper__img"
-              />
+              <div className={`pick__wrapper__item pick__wrapper__item--${pick.number}`}>
+                <img
+                  src={pick.img}
+                  alt={pick.name}
+                  className="pick__wrapper__img"
+                />
+
+                <h3 className="pick__wrapper__title">
+                  {pick.name}
+                </h3>
+              </div>
             ))}
       </div>
     </div>

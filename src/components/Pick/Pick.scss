@@ -10,9 +10,7 @@
     &__img {
       margin-bottom: 36px;
       position: relative;
-      margin-right: 5%;
-      max-width: 40vw;
-      max-height: 50vh;
+      max-width: 360px;
     }
   }
 
@@ -23,11 +21,31 @@
     &__wrapper {
       margin-left: 10%;
       
+      &__item {
+        display: flex;
+        gap: 5%;
+
+        &--1,
+        &--3 {
+          flex-direction: row;
+        }
+
+        &--2,
+        &--4 {
+          flex-direction: row-reverse;
+        }
+      }
+
+      &__title {
+        padding-top: 120px;
+        display: block;
+        width: 360px;
+      }
+
       &__img {
         margin-bottom: 36px;
         position: relative;
-        margin-right: 5%;
-        max-width: 30vw;
+        width: 360px;
       }
     }
 
@@ -37,12 +55,11 @@
     
     &__wrapper {
       margin-left: 10%;
+
       
       &__img {
         margin-bottom: 36px;
         position: relative;
-        margin-right: 5%;
-        max-width: 40vw;
       }
     }
   }
