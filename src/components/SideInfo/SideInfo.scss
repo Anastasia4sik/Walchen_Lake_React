@@ -1,5 +1,5 @@
 .sideInfo {
-  width: 35%;
+  width: 25%;
   padding-left: 40px;
   text-align: end;
 
@@ -36,6 +36,27 @@
     }
   }
 
+  @include onMobile {
+    padding-left: 0;
+
+    &__main {
+
+      &__title {
+        font-size: 12px;
+      }
+
+      &__desc {
+      display: none;
+      }
+    }
+
+    &__link {
+      &::after {
+        display: none;
+      }
+    }
+  }
+
   @include onTablet {
     width: 22%;
 
@@ -48,8 +69,6 @@
 
       &__desc {
         margin-bottom: 64px;
-
-        min-width: 136px;
       }
     }
 

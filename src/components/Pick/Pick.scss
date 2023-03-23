@@ -4,13 +4,33 @@
   margin-bottom: 36px;
   
   &__wrapper {
-    margin-left: 10%;
+    margin-left: 5vw;
     flex-direction: column;
-    
+    max-width: 60vw;
+
+    &__title {
+      text-align: center;
+      margin-bottom: 64px;
+    }
+
     &__img {
-      margin-bottom: 36px;
+      margin-bottom: 18px;
       position: relative;
       max-width: 360px;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  @include onMobile {
+    &__wrapper {
+      margin-left: 3vw;
+
+      &__img {
+        width: 65vw;
+      }
     }
   }
 
@@ -19,7 +39,7 @@
     margin-bottom: 128px;
 
     &__wrapper {
-      margin-left: 10%;
+      margin-left: 5%;
       
       &__item {
         display: flex;
@@ -33,11 +53,13 @@
         &--2,
         &--4 {
           flex-direction: row-reverse;
+          gap: 24px;
         }
       }
 
       &__title {
         padding-top: 120px;
+        padding-left: 36px;
         display: block;
         width: 360px;
       }
@@ -53,10 +75,7 @@
 
   @include onDesktop {
     
-    &__wrapper {
-      margin-left: 10%;
-
-      
+    &__wrapper {      
       &__img {
         margin-bottom: 36px;
         position: relative;

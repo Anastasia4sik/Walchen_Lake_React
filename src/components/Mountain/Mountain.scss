@@ -4,7 +4,7 @@
 
   &__wrapper {
     width: 100vw;
-    margin: 0 10vw;
+    margin: 0 5vw;
   }
 
   &__top {
@@ -66,7 +66,6 @@
     align-items: center;
     background-color: $color-gray;
     left: 10%;
-
   }
 
   @include onTablet {
@@ -88,20 +87,14 @@
 
     &__block {
       &:not(:last-child) {
-
         margin-bottom: 40px;
         border-bottom: 1px solid $color-gray;
       }
-
       
       display: flex;
       max-width: 90%;
       
       padding-bottom: 40px;
-      
-      &__wrapper {
-
-      }
 
       &__content {
         max-width: 60vw;
