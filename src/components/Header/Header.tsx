@@ -1,14 +1,12 @@
 import React from 'react';
-import { User } from '../../types/User';
 import { Menu } from '../Menu';
 import { Logo } from '../shared/Logo';
 
 type Props = {
-  user?: User,
   isMenuVisible: boolean,
 };
 
-export const Header: React.FC<Props> = ({ user, isMenuVisible }) => {
+export const Header: React.FC<Props> = ({ isMenuVisible }) => {
 
   return (
   <header id="Home" className="header">

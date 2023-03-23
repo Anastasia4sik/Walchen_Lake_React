@@ -5,18 +5,18 @@
     "slug": "Water_Tori"
   },
   {
-    "name": "Golden Gate",
-    "img": "https://images.unsplash.com/photo-1470894402574-b766d274deb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=421&q=80",
-    "slug": "Golden_Gate"
+    "name": "Whangarei Falls Bridge",
+    "img": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=753&q=80",
+    "slug": "Whangarei_Falls_Bridge"
   },
   {
-    "name": "Antelope Canyon",
-    "img": "https://images.unsplash.com/photo-1507706132643-4b3dabbca8b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "name": "Positano",
+    "img": "https://images.unsplash.com/photo-1510041883570-1c5b27d85cb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=825&q=80",
     "slug": "Antelope_Canyon"
   },
   {
     "name": "Winter Road",
-    "img": "https://images.unsplash.com/photo-1483510694115-9ba02b9f3eee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+    "img": "https://images.unsplash.com/photo-1483510694115-9ba02b9f3eee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=753&q=80",
     "slug": "Winter_Road"
   }
 ]

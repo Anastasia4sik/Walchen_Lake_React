@@ -20,7 +20,7 @@ export const Picks: React.FC<Props> = ({ picks }) => {
               <img
                 src={pick.img}
                 alt={pick.name}
-                className="pick__top__img"
+                className="pick__wrapper__img"
               />
             ))}
       </div>
