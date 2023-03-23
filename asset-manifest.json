@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Walchen_Lake_React/static/css/main.900dbda6.chunk.css",
-    "main.js": "/Walchen_Lake_React/static/js/main.0bffc81a.chunk.js",
-    "main.js.map": "/Walchen_Lake_React/static/js/main.0bffc81a.chunk.js.map",
+    "main.js": "/Walchen_Lake_React/static/js/main.a17a8a2f.chunk.js",
+    "main.js.map": "/Walchen_Lake_React/static/js/main.a17a8a2f.chunk.js.map",
     "runtime-main.js": "/Walchen_Lake_React/static/js/runtime-main.490fc4d1.js",
     "runtime-main.js.map": "/Walchen_Lake_React/static/js/runtime-main.490fc4d1.js.map",
     "static/js/2.e60d3166.chunk.js": "/Walchen_Lake_React/static/js/2.e60d3166.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.490fc4d1.js",
     "static/js/2.e60d3166.chunk.js",
     "static/css/main.900dbda6.chunk.css",
-    "static/js/main.0bffc81a.chunk.js"
+    "static/js/main.a17a8a2f.chunk.js"
   ]
 }
