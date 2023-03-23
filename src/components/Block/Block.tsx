@@ -38,7 +38,7 @@ export const Block: React.FC = () => {
 
       <Sea />
 
-      <Picks />
+      <Picks picks={picks}/>
 
       <Mountains mountains={mounts}/>
 
