@@ -3,7 +3,7 @@
 Beautiful photos from the best places in the world for you to notice in your plans where to go on vacation next time. Enjoy!
 </p>
 
-[DEMO LINK](https://anastasia4sik.github.io/Cats/)
+[DEMO LINK](https://anastasia4sik.github.io/Walchen_Lake_React/)
 
 <h2>Stack technologies I used:</h2>
 <br>
