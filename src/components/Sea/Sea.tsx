@@ -28,7 +28,7 @@ export const Sea: React.FC = () => {
           </p>
 
           <a 
-            href="#sea" 
+            href="https://goo.gl/maps/A6RjbG2cSkVKx2aM8" 
             className="sea__btn btn"
             target="_blank" 
             rel="noreferrer"

@@ -44,11 +44,7 @@ export const Header: React.FC<Props> = ({ isMenuVisible }) => {
           that you never imagine before
         </p>
 
-        <a 
-          href="https://goo.gl/maps/xpfY6BGfmMFGALqw5" 
-          target='_blank' 
-          className="btn" rel="noreferrer"
-        >
+        <a href="https://goo.gl/maps/xpfY6BGfmMFGALqw5" className="btn">
           See more
         </a>
       </div>
