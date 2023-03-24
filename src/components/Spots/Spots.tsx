@@ -1,6 +1,6 @@
 import React from 'react';
 import { Spot } from '../../types/Spot';
-import { SideInfo } from '../SideInfo';
+import { SideInfo } from '../shared/SideInfo';
 
 type Props = {
   spots: Spot[],

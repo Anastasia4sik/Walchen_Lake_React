@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Walchen_Lake_React/static/css/main.37e3c782.chunk.css",
+    "main.css": "/Walchen_Lake_React/static/css/main.5f112890.chunk.css",
     "main.js": "/Walchen_Lake_React/static/js/main.9486c45f.chunk.js",
     "main.js.map": "/Walchen_Lake_React/static/js/main.9486c45f.chunk.js.map",
     "runtime-main.js": "/Walchen_Lake_React/static/js/runtime-main.490fc4d1.js",
@@ -8,7 +8,7 @@
     "static/js/2.98d19f92.chunk.js": "/Walchen_Lake_React/static/js/2.98d19f92.chunk.js",
     "static/js/2.98d19f92.chunk.js.map": "/Walchen_Lake_React/static/js/2.98d19f92.chunk.js.map",
     "index.html": "/Walchen_Lake_React/index.html",
-    "static/css/main.37e3c782.chunk.css.map": "/Walchen_Lake_React/static/css/main.37e3c782.chunk.css.map",
+    "static/css/main.5f112890.chunk.css.map": "/Walchen_Lake_React/static/css/main.5f112890.chunk.css.map",
     "static/js/2.98d19f92.chunk.js.LICENSE.txt": "/Walchen_Lake_React/static/js/2.98d19f92.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/Walchen_Lake_React/static/media/menu_hover.b53a9c6a.svg",
     "static/media/sea.aa24ed0c.jpg": "/Walchen_Lake_React/static/media/sea.aa24ed0c.jpg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.490fc4d1.js",
     "static/js/2.98d19f92.chunk.js",
-    "static/css/main.37e3c782.chunk.css",
+    "static/css/main.5f112890.chunk.css",
     "static/js/main.9486c45f.chunk.js"
   ]
 }

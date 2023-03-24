@@ -1,5 +1,5 @@
 import React from 'react';
-import { SideInfo } from '../SideInfo';
+import { SideInfo } from '../shared/SideInfo';
 import { Pick } from '../../types/Pick';
 
 type Props = {
