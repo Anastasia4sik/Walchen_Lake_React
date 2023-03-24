@@ -1,4 +1,5 @@
 .footer {
+  position: relative;
   display: flex;
   justify-content: space-between;
 
@@ -9,23 +10,15 @@
   padding: 0 88px 0 40px;
 
   align-items: center;
-  text-align: center;
-
-  &__date {
-    color: $bc-color;
-    margin-bottom: 0;
-  }
 
   &__links {
     &__item {
       &__img {
-        height: 16px;
-        width: 16px;
+        height: 24px;
+        width: 24px;
       }
 
-      &:not(:last-child) {
-        margin-right: 16px;
-      }
+      margin-right: 24px;
     }
   }
 }

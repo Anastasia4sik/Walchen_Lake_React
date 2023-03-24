@@ -5,7 +5,6 @@ import { useLocation } from 'react-router-dom';
 import { Block } from '../Block';
 import { Footer } from '../Footer';
 import { Header } from '../Header';
-import { Arrow } from '../shared/Arrow';
 
 export const Page: React.FC = () => {
   const { hash } = useLocation();
@@ -21,8 +20,6 @@ export const Page: React.FC = () => {
       <Header isMenuVisible={isMenuVisible} />
 
       <Block />
-
-      <Arrow rotate={270} isUp />
 
       <Footer />
     </div>

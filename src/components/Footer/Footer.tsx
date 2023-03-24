@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { Arrow } from '../shared/Arrow';
 import { Logo } from '../shared/Logo';
 
 export const Footer: React.FC = () => {
@@ -8,46 +10,44 @@ export const Footer: React.FC = () => {
         <Logo />
       </div>
 
-      <p className="footer__date title--4">
-        &copy; 2017 - 2018
-      </p>
+      <Arrow />
 
       <div className="footer__links">
-        <a
-          href="https://www.instagram.com/"
+        <Link
+          to="https://github.com/Anastasia4sik"
           target="_blank"
           className="footer__links__item"
         >
           <img
-            src="./images/icons/instagram.png"
+            src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png"
             alt="Instagram"
             className="footer__links__item__img"
           />
-        </a>
+        </Link>
 
-        <a
-          href="https://www.facebook.com/"
+        <Link
+          to="https://www.linkedin.com/in/anastasiia-fursyk-344124254/"
           target="_blank"
-          className="footer__links__item"
+          className="footer__links__item" 
         >
           <img
-            src="./images/icons/facebook.png"
+            src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"
             alt="Facebook"
             className="footer__links__item__img"
           />
-        </a>
+        </Link>
 
-        <a
-          href="https://twitter.com/"
+        <Link
+          to="https://www.instagram.com/fur_fur_furrr/"
           target="_blank"
-          className="footer__links__item"
+          className="footer__links__item" 
         >
           <img
-            src="./images/icons/twitter.png"
+            src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
             alt="Twitter"
             className="footer__links__item__img"
           />
-        </a>
+        </Link>
       </div>
     </footer>
   )

@@ -16,8 +16,8 @@
       padding-bottom: 24px;
 
       font-weight: bold;
-      font-size: 12px;
-      line-height: 12px;
+      font-size: 14px;
+      line-height: 14px;
       color: $color-gray;
 
       &:hover {
@@ -49,8 +49,9 @@
   }
 
   @include onTablet {
-    padding: 60px 0 0 72px;
+    padding: 60px 0 0 48px;
     text-align: justify;
+    top: 10vh;
     width: 25vw;
 
     &__list {
