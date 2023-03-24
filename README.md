@@ -61,4 +61,4 @@ When writing the code, I used the convenient BEM methodology, which made it poss
 
 ##
 
-In this work, I used static API to retrieve all the information. Thank you for your attention!
+In this work, I used static API to retrieve all the information. This site also has a burger menu, which you can see if the width of your device is less than 600px Thank you for your attention!
