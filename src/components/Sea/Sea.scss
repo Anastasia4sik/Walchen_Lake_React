@@ -46,19 +46,16 @@
     flex-direction: row;
     justify-content: flex-start;
     flex-shrink: 1;
-    gap: 5%;
+    gap: 15%;
     margin-bottom: 128px;
     max-width: 90%;
 
     &__img {
-      max-width: 40%;
+      max-width: 50%;
       height: 80vh;
     }
 
     &__content {
-      max-width: 436px;
-      margin-left: 96px;
-
       &__title {
         margin-bottom: 48px;
       }
@@ -71,7 +68,7 @@
 
       &__desc {
         display: block;
-        max-width: 396px;
+        max-width: 40vw;
 
         font-weight: 500;
         font-size: 16px;
@@ -85,5 +82,9 @@
         }
       }
     }
+    &__btn {
+      margin: 0;
+    }
   }
+
 }

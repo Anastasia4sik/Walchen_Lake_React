@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getMountains, getPicks, getSpots } from '../../helpers/api';
+import { getMountains, getPicks, getSpots } from '../../api/api';
 import { Mountain } from '../../types/Mountain';
 import { Pick } from '../../types/Pick';
 import { Spot } from '../../types/Spot';

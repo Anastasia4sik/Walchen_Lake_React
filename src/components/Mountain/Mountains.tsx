@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Mountain } from '../../types/Mountain';
 
 type Props = {
@@ -46,12 +47,12 @@ export const Mountains: React.FC<Props> = ({ mountains }) => {
                 {mount.description2}
               </p>
 
-              <a
-                href={`#${mount.slug}`}
+              <Link
+                to={mount.link}
                 className="mountain__block__content__btn btn"
               >
-                Read more
-              </a>
+                See more
+              </Link>
             </div>
 
             <img

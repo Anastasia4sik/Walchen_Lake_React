@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Spot } from '../../types/Spot';
 import { SideInfo } from '../shared/SideInfo';
 
@@ -32,9 +33,9 @@ export const Spots: React.FC<Props> = ({ spots }) => {
                   {spot.description}
                 </p>
 
-                <a href={`#${spot.slug}`} className="spots__link">
-                  read more
-                </a>
+                <Link to={spot.link} className="spots__link">
+                  See more
+                </Link>
               </div>
             ))}
         </div>

@@ -3,5 +3,6 @@ export interface Spot {
   img: string;
   location: string;
   description: string;
+  link: string;
   slug: string;
 }

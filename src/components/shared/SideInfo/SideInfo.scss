@@ -37,16 +37,11 @@
   }
 
   @include onMobile {
-    padding-left: 0;
+    display: none;
 
     &__main {
-
       &__title {
         font-size: 12px;
-      }
-
-      &__desc {
-      display: none;
       }
     }
 
@@ -60,7 +55,7 @@
   @include onTablet {
     width: 22%;
 
-    padding-left: 86px;
+    padding-left: 3vw;
 
     &__main {
       &__title {

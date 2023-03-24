@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-import classNames from 'classnames';
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 import { Block } from '../Block';
@@ -11,12 +9,14 @@ export const Page: React.FC = () => {
 
   const isMenuVisible = hash.includes('#menu');
 
-  return (
-    <div className={classNames(
-      'page',
-      {'page__body--with-menu': isMenuVisible}
-    )}>
+  if (isMenuVisible) {
+    document.body.classList.add('page__body--with-menu');
+  } else {
+    document.body.classList.remove('page__body--with-menu');
+  }
 
+  return (
+    <div className='page__body'>
       <Header isMenuVisible={isMenuVisible} />
 
       <Block />

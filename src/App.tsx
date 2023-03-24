@@ -6,9 +6,7 @@ import './index.scss';
 export const App = () => {
   return (
     <BrowserRouter>
-      <div className="App">
         <Page />
-      </div>
     </BrowserRouter>
   );
 };

@@ -4,5 +4,6 @@ export interface Mountain {
   location: string;
   description1: string;
   description2: string;
+  link: string,
   slug: string;
 }

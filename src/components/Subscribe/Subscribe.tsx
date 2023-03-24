@@ -20,6 +20,7 @@ export const Subscribe: React.FC = () => {
           className="subscribe__form__input description"
           required
         />
+
         <button
           id="btn"
           className="subscribe__btn"

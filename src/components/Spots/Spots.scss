@@ -35,8 +35,8 @@
   }
 
   &__wrapper {
+    margin: 0 auto;
     position: relative;
-    margin-left: 5%;
 
     display: flex;
     flex-direction: column;
@@ -76,10 +76,11 @@
       margin-bottom: 36px;
     }
 
-      &__wrapper {
-        flex-direction: row;
-        gap: 5%;
-      }
+    &__wrapper {
+      margin: 0 0 0 3vw;
+      flex-direction: row;
+      gap: 5%;
+    }
 
     &__nav {
       display: flex;
@@ -87,6 +88,12 @@
       position: absolute;
       left: 40%;
       transform: translateX(-50%);
+    }
+  }
+
+  @include onDesktop {
+    &__wrapper {
+      margin-left: 15vw;
     }
   }
 }

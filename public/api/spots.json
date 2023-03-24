@@ -4,6 +4,7 @@
     "img": "https://images.unsplash.com/photo-1465513186934-3f5d20797c3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
     "location": "Peru",
     "description": "Ad lorem aliquid laoreet pri, possim iisque ad vim. Te gracies maluisset eum. Sit no platonem consetetur mediocritatem, in allienum.",
+    "link": "https://goo.gl/maps/PTW6qt2yzhtYjQjr7",
     "slug": "Ollantaytambo"
   },
   {
@@ -11,6 +12,7 @@
     "img": "https://images.unsplash.com/photo-1479030160180-b1860951d696?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "location": "USA",
     "description": "Ad lorem aliquid laoreet pri, possim iisque ad vim. Te gracies maluisset eum. Sit no platonem consetetur mediocritatem, in allienum.",
+    "link": "https://goo.gl/maps/sD74Wp6isBU41Cgv6",
     "slug": "Antelope_Canyon"
   },
 
@@ -19,6 +21,7 @@
     "img": "https://images.unsplash.com/photo-1495612778264-627cd2e6dfb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80",
     "location": "Canada",
     "description": "Ad lorem aliquid laoreet pri, possim iisque ad vim. Te gracies maluisset eum. Sit no platonem consetetur mediocritatem, in allienum.",
+    "link": "https://goo.gl/maps/Zr2m86Joq5pVKRpn8",
     "slug": "Lake_Louise"
   }
 ]
