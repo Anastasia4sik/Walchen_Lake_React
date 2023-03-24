@@ -32,7 +32,12 @@ export const Spots: React.FC<Props> = ({ spots }) => {
                   {spot.description}
                 </p>
 
-                <a href={spot.link} className="spots__link">
+                <a 
+                  href={spot.link} 
+                  className="spots__link"
+                  target="_blank" 
+                  rel="noreferrer"
+                >
                   See more
                 </a>
               </div>

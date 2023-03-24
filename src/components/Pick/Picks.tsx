@@ -18,7 +18,11 @@ export const Picks: React.FC<Props> = ({ picks }) => {
       <div className="pick__wrapper">
             {picks.map(pick => (
               <div className={`pick__wrapper__item pick__wrapper__item--${pick.number.toString()}`}>
-                <a href={pick.link} >
+                <a 
+                  href={pick.link} 
+                  target="_blank" 
+                  rel="noreferrer"
+                >
                   <img
                     src={pick.img}
                     alt={pick.name}

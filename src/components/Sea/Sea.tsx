@@ -27,7 +27,12 @@ export const Sea: React.FC = () => {
             Mea ea simul quaeque vocibus. Est ut verear voluptetum, vis at illud discere. Volumus rationibus cu sea, et summo ocurreret per, sit no audire scribentur. Vim et brute moderatius comprehensam. Argumentum disputando ea mel, sed clita congue an, equidem maluisset dispuntando ei ius. Vei ne enim duis. Nec ignota instructior te. Ipsum tacimates adversarium ut his. Fastidi adipisei ei cum, eum tollit percipit ne. Diam tantas te nec.
           </p>
 
-          <a href="#sea" className="sea__btn btn">
+          <a 
+            href="#sea" 
+            className="sea__btn btn"
+            target="_blank" 
+            rel="noreferrer"
+          >
             Read more
           </a>
         </div>

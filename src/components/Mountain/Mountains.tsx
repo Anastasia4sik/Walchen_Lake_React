@@ -48,7 +48,8 @@ export const Mountains: React.FC<Props> = ({ mountains }) => {
 
               <a
                 href={mount.link}
-                className="mountain__block__content__btn btn"
+                target="_blank"
+                className="mountain__block__content__btn btn" rel="noreferrer"
               >
                 See more
               </a>

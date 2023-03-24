@@ -17,8 +17,10 @@ export const Menu: React.FC<Props> = ({ isVisible }) => {
       <ul className="menu__side__list">
         {['Home', 'Spots', 'Sea', 'Picks', 'Mountains', 'Help'].map(item => (
           <li className="menu__side__list__item">
-            <a href={`#${item}`}
-            className="menu__side__list__link"
+            <a
+              href={`#${item}`}
+              target="_blank"
+              className="menu__side__list__link" rel="noreferrer"
             >
               {item}
             </a>
