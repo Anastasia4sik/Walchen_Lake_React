@@ -3,24 +3,28 @@
     "name": "Water Tori",
     "img": "https://images.unsplash.com/photo-1492571350019-22de08371fd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=753&q=80",
     "number": 1,
+    "link": "https://goo.gl/maps/g6ziyvvxjSZbZAXz6",
     "slug": "Water_Tori"
   },
   {
     "name": "Whangarei Falls Bridge",
     "img": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=753&q=80",
     "number": 2,
+    "link": "https://goo.gl/maps/BqV1RMGShySvd8Re8",
     "slug": "Whangarei_Falls_Bridge"
   },
   {
     "name": "Positano",
     "img": "https://images.unsplash.com/photo-1510041883570-1c5b27d85cb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=825&q=80",
     "number": 3,
-    "slug": "Antelope_Canyon"
+    "link": "https://goo.gl/maps/mBVv8xsqTHFKBqx99",
+    "slug": "Positano"
   },
   {
     "name": "Mountain Winter Road",
     "img": "https://images.unsplash.com/photo-1483510694115-9ba02b9f3eee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=753&q=80",
     "number": 4,
+    "link": "https://goo.gl/maps/8wUowQTVWtvf4gGQ7",
     "slug": "Winter_Road"
   }
 ]

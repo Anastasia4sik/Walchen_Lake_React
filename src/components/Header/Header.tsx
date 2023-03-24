@@ -44,8 +44,8 @@ export const Header: React.FC<Props> = ({ isMenuVisible }) => {
           that you never imagine before
         </p>
 
-        <a href="#Walchen_Lake" className="btn">
-          Read more
+        <a href="https://goo.gl/maps/xpfY6BGfmMFGALqw5" className="btn">
+          See more
         </a>
       </div>
     </div>
